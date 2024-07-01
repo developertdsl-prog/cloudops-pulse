@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Build outputs
+dist/
+build/
+client/dist/
+client/build/
+
+# Runtime & Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Operating System
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
