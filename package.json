@@ -1,0 +1,39 @@
+{
+  "name": "cloudops-pulse",
+  "version": "1.0.0",
+  "description": "Distributed Microservices Telemetry, Service Mesh Observability & Incident Escalation Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "seed": "node server/utils/seedTelemetry.js",
+    "test": "node --test server/tests/*.test.js",
+    "test:coverage": "node --test --experimental-test-coverage server/tests/*.test.js"
+  },
+  "keywords": [
+    "devops",
+    "sre",
+    "telemetry",
+    "service-mesh",
+    "slo",
+    "error-budget",
+    "incident-response",
+    "observability",
+    "microservices"
+  ],
+  "author": "developertdsl-prog <developer.tdsl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
