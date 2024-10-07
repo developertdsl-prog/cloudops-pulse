@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+  .mesh-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .overview-row {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-wrapper {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .mesh-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .overview-row {
+    grid-template-columns: 1fr !important;
+  }
+  .modal-dialog {
+    width: 95% !important;
+    margin: 10px;
+  }
+}
